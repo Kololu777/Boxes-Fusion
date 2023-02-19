@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "boxes-fusion"
+version = "0.1.0"
+description = ""
+authors = ["ko"]
+readme = "README.md"
+packages = [{include = "boxes_fusion"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
